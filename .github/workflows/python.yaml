@@ -9,7 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: python python.py
-jobs:
   build:
     runs-on: ubuntu-latest
     need: [test]
